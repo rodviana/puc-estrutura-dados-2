@@ -1,28 +1,46 @@
 # Estrutura de Dados 2
 
-Repositório de projetos da disciplina **Estrutura de Dados 2** (4º período) — PUC Goiás.
+| | |
+|---|---|
+| **Disciplina** | Estrutura de Dados 2 |
+| **Período** | 4º |
+| **Stack** | C++ / Qt |
+
+## Visão geral
+
+Estruturas avançadas: **grafos** (DFS/BFS), **ordenação** e simulação de **sistema de aeroporto** com filas de prioridade.
 
 ## Projetos
 
-| Pasta / arquivo | Descrição |
-|-----------------|-----------|
-| `Aeroporto-20210527T220235Z-001` | Projeto ou atividade da disciplina |
-| `DFS` | Projeto ou atividade da disciplina |
-| `TRAB_transportes_Aereos` | Projeto ou atividade da disciplina |
-| `exercicio` | Projeto ou atividade da disciplina |
-| `ordenamento-de-vetores` | Projeto ou atividade da disciplina |
-| `trabalho_BFS` | Projeto ou atividade da disciplina |
-
-## Tecnologias
-
-- C
-- C++
+| Pasta | Algoritmo / tema | Descrição |
+|-------|------------------|-----------|
+| `DFS/` | Depth-First Search | Percorrimento em profundidade em grafo |
+| `trabalho_BFS/` | Breadth-First Search | Percorrimento em largura |
+| `ordenamento-de-vetores/` | Ordenação | Comparação de métodos de ordenação em vetores |
+| `exercicio/` | Exercício avulso | Prática de estruturas |
+| `Aeroporto-*/Aeroporto/` | Simulação | Modelagem de aeroporto com filas |
+| `TRAB_transportes_Aereos/` | Trabalho | Transportes aéreos — estruturas de fila/prioridade |
 
 ## Como executar
 
-- **C:** Compilar com `gcc arquivo.c -o programa` ou `make` se houver Makefile.
-- **C++:** Projetos Qt: abrir `.pro` no Qt Creator ou `qmake && make`.
+```bash
+cd DFS
+qmake DFS.pro && make
+./DFS
+```
 
+Repita para cada pasta com arquivo `.pro`.
+
+## Conceitos
+
+- Representação de grafos (matriz/lista de adjacência)
+- DFS e BFS com marcação de visitados
+- Algoritmos de ordenação (comparação de complexidade na prática)
+- Filas aplicadas a contexto real (aeroporto)
 ---
 
-*Origem: Google Drive → staging PUC. Repositório `puc-estrutura-dados-2` na org `puc-estudos`.*
+## Autor
+
+**Rodrigo Viana Quirino** — Ciência da Computação, PUC Goiás.
+
+Repositório privado na conta [rodviana](https://github.com/rodviana).
