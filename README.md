@@ -43,4 +43,4 @@ Repita para cada pasta com arquivo `.pro`.
 
 **Rodrigo Viana Quirino** — Ciência da Computação, PUC Goiás.
 
-Repositório privado na conta [rodviana](https://github.com/rodviana).
+Repositório público na conta [rodviana](https://github.com/rodviana).
