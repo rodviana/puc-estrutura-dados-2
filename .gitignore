@@ -1,0 +1,16 @@
+target/
+build/
+build-*/
+debug/
+release/
+out/
+*.class
+*.o
+*.exe
+.DS_Store
+.idea/
+venv/
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+*.pro.user
